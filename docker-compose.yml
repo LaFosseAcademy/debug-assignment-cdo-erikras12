@@ -5,6 +5,8 @@ services:
     ports:
       - "3000:3000"
     restart: always
+    depends_on:
+      - tour-de-france-db
     networks:
       - tour-network
 
@@ -13,8 +15,6 @@ services:
     ports:
       - "5432:5432"
     restart: always
-    depends_on:
-      - tour-de-france-db
     networks:
       - tour-network
       
