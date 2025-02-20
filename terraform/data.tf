@@ -19,7 +19,7 @@ data "aws_ami" "aws_linux_2023_ami_latest" {
     }
 }
 
-data "aws_subnets" "default_" {
+data "aws_subnets" "default_subnets" {
     filter {
         name = "vpc-id"
         values = [aws_default_vpc.default.id]
