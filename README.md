@@ -6,6 +6,8 @@ This API manages and stores information on popular cycling teams that attend the
 ## How to Run
 
 ### Docker images
+Make sure your docker engine is running
+
 Firstly the user must navigate to the tour-de-france-db directory and it is here were the user must run the following commands:
 
 ``` docker build -t <docker-username>/tour-de-france-db:0.0.1.RELEASE . ```
