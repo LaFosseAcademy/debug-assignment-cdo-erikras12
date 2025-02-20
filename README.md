@@ -1,7 +1,7 @@
 # Debug Assignment CDO
 
 ## Tour-de-France API
-This API has CRUD functionality as it manages and stores information popular cycling teams that attend the tour-de-france. It allows users to search for specific teams/riders and allows the user to filter riders based on the type of rider they are. This appliation was hosted on a ec2 instance by running a docker-compose file on the instance via ansible and the respective docker images.
+This API manages and stores information on popular cycling teams that attend the tour-de-france. It allows users to search for specific teams/riders and allows the user to filter riders based on the type of rider they are. This appliation was hosted on a ec2 instance by running a docker-compose file on the instance via ansible and the respective docker images.
 
 ## How to Run
 
