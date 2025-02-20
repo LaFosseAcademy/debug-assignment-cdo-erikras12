@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "http_server" {
-  ami = ""
+  ami = data.aws_ami.aws_linux_2023_ami_latest.id
   key_name = "default-ec2"
   instance_type = ""
   vpc_security_group_ids = [aws_security_group.http_server_sg.id]
