@@ -1,20 +1,20 @@
 version: '3.9'
 services:
   tour-de-france-mvc:
-    image: :0.0.1.RELEASE
+    image: erikrasniqi/tour-de-france-mvc:0.0.1.RELEASE
     ports:
       - "3000:3000"
     restart: always
+    depends_on:
+      - tour-de-france-db
     networks:
       - tour-network
 
   tour-de-france-db:
-    image: :0.0.1.RELEASE
+    image: erikrasniqi/tour-de-france-db:0.0.1.RELEASE
     ports:
       - "5432:5432"
     restart: always
-    depends_on:
-      - tour-de-france-db
     networks:
       - tour-network
       

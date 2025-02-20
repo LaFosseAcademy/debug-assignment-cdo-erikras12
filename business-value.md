@@ -1,0 +1,12 @@
+# Added Value of DevOps to Businesses 
+The use of DevOps technologies such as Terraform, Docker and Ansible in this case and the implementation of DevOps best practices has led to significant improvements in scalability and automation throughout the industry.
+
+Infrastructure-as-code (IaC) tools such as Terraform allow teams to automatically provision resources on their chosen providers. This automation of the process leads to a decrease in human errors during provisioning which in turn leads to saving money by not provisioning resources that won’t be used but also decreases time-to-market of their application/updates which leads to better profits. Teams can also very quickly provision more instances and also add load balancers to make sure the performance of their applications is not hindered.
+
+Docker provides added value to a company as it allows for faster application development and provides consistency across many different environments. This dramatically streamlines the development operations as developers no longer need to read extremely long documents on how to run an application, they can just run the docker images.
+
+Anisble is important in configuring resources with for example packages or updating them. In a company that has thousands of instances running, manually going through each one would take far too long and would cost a business far too much money. The automation of this configuration allows businesses to allocate the money that would have been required to do it manually somewhere else in the business.  
+
+There are many more DevOps technologies such as the container orchestration tool Kubernetes which helps businesses speed up integration and deployment of applications but also helps to allocate resources automatically in real-time depending on application needs which saves businesses a lot of money. Pipelines also add value to the company by decreasing time-to-market by increasing CI/CD. Pipelines such as Azure Pipelines allow companies to automatically deploy based on changes made to code without having to manually deploy which increases the likelihood of errors.
+
+Overall DevOps technologies have allowed businesses to automate processes that would cost a lot of money to do manually as well as optimise the performance of their applications via resource management and automatic configurations. All in all, this has meant that companies are able to more easily scale up and save money as they do.

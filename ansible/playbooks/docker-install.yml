@@ -10,13 +10,14 @@
     - name: Install Docker
       yum:
         name: docker
-        state: absent
+        state: present
       become: true
 
     - name: Start Docker service
       service:
         name: docker
         state: started
+        enabled: yes
       become: true
 
     - name: Add ec2-user to docker group
